@@ -1,7 +1,7 @@
 <h1 align="center">Pedro Vale de Lima Bezerra</h1>
 
 <p align="center">
-  <b>Desenvolvedor de Software · Back-end com Python · Interesse em Engenharia de IA</b><br>
+  <b>Desenvolvedor de Software · Foco em Back-end · Engenharia de Software</b><br>
   Engenharia de Software na Fametro · Manaus, AM
 </p>
 
@@ -19,13 +19,13 @@
 
 ## 🧑‍💻 Sobre mim
 
-Sou desenvolvedor de software com foco em **back-end**, experiência em projetos **full stack** e interesse em **Engenharia de Inteligência Artificial**. Curso Engenharia de Software na Fametro, com conclusão prevista para dezembro de 2028.
+Sou desenvolvedor de software com foco em **back-end**, preferência por **Python** e experiência em diferentes camadas de aplicações: APIs, regras de negócio, bancos de dados, web e mobile. Curso Engenharia de Software na Fametro, com conclusão prevista para dezembro de 2028.
 
-No back-end, minha linguagem preferida é **Python**. Também trabalho com Node.js e TypeScript, e já atuei em projetos que passam por banco de dados, regras de negócio, APIs, web e mobile.
+Além de Python, trabalho com Node.js, NestJS e TypeScript no back-end, PostgreSQL e Supabase nos dados, e React, Next.js e React Native nas interfaces.
 
 - 🔭 Desenvolvendo o **TocaAqui**, um marketplace para contratação de músicos, da modelagem do banco e das regras de autorização até as telas web e mobile
-- 🧠 Estudando aplicações com LLMs: integração com APIs de modelos, recuperação de contexto (RAG), saídas estruturadas e avaliação
 - ⚙️ Trabalho com processo: issues, branches, pull requests, integração contínua e testes automatizados
+- 🧠 Tenho interesse em Inteligência Artificial e estudo a integração de LLMs em aplicações
 - 🎹 Fora do código, sou tecladista
 
 ## 🛠️ Tecnologias
@@ -38,9 +38,9 @@ No back-end, minha linguagem preferida é **Python**. Também trabalho com Node.
 | **Autenticação e autorização** | Supabase Auth · Firebase Auth · JWT · RBAC · Row Level Security |
 | **Front-end e mobile** | React · Next.js · React Native · Expo · HTML · CSS |
 | **Qualidade** | Git · GitHub Actions · Vitest · testes automatizados · integração contínua |
-| **Aplicações com IA** | Integração com LLM via API da OpenAI (protótipo Corretor Fácil) |
+| **IA** | Integração com LLM via API da OpenAI (protótipo Corretor Fácil) |
 
-**Ferramentas de desenvolvimento:** uso agentes de programação (Codex e Claude Code) como apoio para escrever, revisar e testar código. Eles são ferramenta de trabalho, não projetos de IA. Os projetos de IA estão listados acima.
+**Ferramentas:** uso agentes de programação (Codex e Claude Code) como apoio para escrever, revisar e testar código. Para mim eles são ferramenta de trabalho, não projetos de IA.
 
 ## 🚀 Projetos em destaque
 
