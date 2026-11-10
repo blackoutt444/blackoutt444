@@ -1,50 +1,44 @@
-<h1 align="center">Olá, eu sou o Pedro Bezerra 👋</h1>
+<h1 align="center">Pedro Vale de Lima Bezerra</h1>
 
 <p align="center">
-  <b>Estudante de Engenharia de Software · Desenvolvedor Full Stack · Tecladista 🎹</b>
+  <b>Desenvolvedor de Software · Back-end com Python · Interesse em Engenharia de IA</b><br>
+  Engenharia de Software na Fametro · Manaus, AM
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
 </p>
 
 ---
 
 ## 🧑‍💻 Sobre mim
 
-Sou estudante de Engenharia de Software e desenvolvo aplicações **web e mobile de ponta a ponta**: banco de dados, regras de negócio, API e interface. Também sou músico, e foi juntando essas duas paixões que nasceu meu principal projeto, o **TocaAqui**.
+Sou desenvolvedor de software com foco em **back-end**, experiência em projetos **full stack** e interesse em **Engenharia de Inteligência Artificial**. Curso Engenharia de Software na Fametro, com conclusão prevista para dezembro de 2028.
 
-- 🔭 Construindo o **TocaAqui**, um marketplace para contratação de músicos
-- 🌱 Aprofundando em arquitetura de software, bancos de dados e segurança de aplicações
-- ⚙️ Gosto de trabalhar com processo: issues, branches, pull requests, CI e Conventional Commits
-- 🎸 Fora do código: teclado, e aprendendo guitarra
+No back-end, minha linguagem preferida é **Python**. Também trabalho com Node.js e TypeScript, e já atuei em projetos que passam por banco de dados, regras de negócio, APIs, web e mobile.
+
+- 🔭 Desenvolvendo o **TocaAqui**, um marketplace para contratação de músicos, da modelagem do banco e das regras de autorização até as telas web e mobile
+- 🤖 Uso agentes de programação (Codex e Claude) e prompting estruturado no dia a dia, e estou me aprofundando em aplicações com LLMs
+- ⚙️ Trabalho com processo: issues, branches, pull requests, integração contínua e testes automatizados
+- 🎹 Fora do código, sou tecladista
 
 ## 🛠️ Tecnologias
 
-**Linguagens**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Front-end e mobile**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-
-**Back-end e dados**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-**Ferramentas**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+| Área | Tecnologias |
+| --- | --- |
+| **Back-end** | Python · Flask · Node.js · NestJS · APIs REST |
+| **Linguagens** | Python · TypeScript · JavaScript · SQL · Java · C |
+| **Banco de dados e BaaS** | PostgreSQL · PostGIS · Supabase · Firebase |
+| **Autenticação e autorização** | Supabase Auth · Firebase Auth · JWT · RBAC · Row Level Security |
+| **Front-end e mobile** | React · Next.js · React Native · Expo · HTML · CSS |
+| **Qualidade** | Git · GitHub Actions · Vitest · testes automatizados · integração contínua |
+| **IA** | Desenvolvimento assistido por IA · prompting estruturado · agentes de programação · API da OpenAI |
 
 ## 🚀 Projetos em destaque
 
@@ -53,17 +47,20 @@ Sou estudante de Engenharia de Software e desenvolvo aplicações **web e mobile
 
 Plataforma brasileira para contratar músicos e profissionais da música, com app web, painel administrativo e app mobile.
 
-- **Monorepo** com npm workspaces e TypeScript estrito: web e admin em **Next.js**, app mobile em **Expo/React Native** e pacotes compartilhados de domínio, validação, design tokens e cliente de API
-- **Supabase/PostgreSQL** com migrations versionadas, políticas de **Row Level Security**, funções RPC transacionais e testes de RLS
-- Regras de negócio isoladas no domínio: cálculo de taxas, checkout em sandbox, ledger imutável e webhooks idempotentes
-- **CI no GitHub Actions**: lint, typecheck, testes com **Vitest**, build e auditoria de dependências
-- Fluxo de engenharia com issues, branches, pull requests e Conventional Commits, além de documentação de arquitetura, produto e segurança (threat model e matriz de autorização)
+- **Banco e autorização:** PostgreSQL no Supabase com migrations versionadas, políticas de Row Level Security, funções RPC transacionais e testes de RLS
+- **Regras de negócio** isoladas em um pacote de domínio: cálculo de taxas, checkout em sandbox, ledger imutável e webhooks idempotentes
+- **Arquitetura:** monorepo em TypeScript (npm workspaces) com web e admin em Next.js, app mobile em Expo/React Native e pacotes compartilhados de domínio, validação e cliente de API
+- **Qualidade:** CI no GitHub Actions com lint, typecheck, testes (Vitest), build e auditoria de dependências; fluxo com issues, pull requests e Conventional Commits
+- **Documentação** de arquitetura, produto e segurança (threat model e matriz de autorização)
 
 ### 🎧 [Conversor de Áudio](https://github.com/blackoutt444/conversor-de-audio)
 
-Aplicação web em **Python/Flask** que baixa o áudio de um vídeo a partir do link e converte para MP3, WAV, OGG, FLAC ou AAC, usando **yt-dlp** e **FFmpeg**.
+API em **Python/Flask** que baixa o áudio de um vídeo a partir do link e converte para MP3, WAV, OGG, FLAC ou AAC com **yt-dlp** e **FFmpeg**.
+
+- Testes automatizados com conversão real pelo FFmpeg, validação de entrada e proteção contra path traversal
+- Integração contínua no GitHub Actions (Python 3.12 e 3.13)
 
 ### 📋 Corretor Fácil
 > *Repositório privado*
 
-App mobile em **React Native/Expo** para corretores de planos de saúde: cotação, busca de rede credenciada, favoritos e sugestões de plano geradas com a API da OpenAI.
+App mobile em **React Native/Expo** para corretores de planos de saúde, com cotação, busca de rede credenciada e sugestões de plano geradas por um **LLM** (API da OpenAI).
