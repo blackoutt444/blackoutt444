@@ -32,13 +32,13 @@ Além de Python, trabalho com Node.js, NestJS e TypeScript no back-end, PostgreS
 
 | Área | Tecnologias |
 | --- | --- |
-| **Back-end** | Python · Flask · Node.js · NestJS · APIs REST |
+| **Back-end** | Python · Flask · FastAPI · Node.js · NestJS · APIs REST |
 | **Linguagens** | Python · TypeScript · JavaScript · SQL · Java · C |
 | **Banco de dados e BaaS** | PostgreSQL · PostGIS · Supabase · Firebase |
 | **Autenticação e autorização** | Supabase Auth · Firebase Auth · JWT · RBAC · Row Level Security |
 | **Front-end e mobile** | React · Next.js · React Native · Expo · HTML · CSS |
 | **Qualidade** | Git · GitHub Actions · Vitest · testes automatizados · integração contínua |
-| **IA** | Integração com LLM via API da OpenAI (protótipo Corretor Fácil) |
+| **IA** | Integração com LLM via API da OpenAI (protótipo Corretor Fácil) · RAG com embeddings locais, LLM local com Ollama, saída estruturada validada com Pydantic e avaliação automatizada (cardapio-rag) |
 
 **Ferramentas:** uso agentes de programação (Codex e Claude Code) como apoio para escrever, revisar e testar código. Para mim eles são ferramenta de trabalho, não projetos de IA.
 
@@ -67,3 +67,11 @@ API em **Python/Flask** que baixa o áudio de um vídeo a partir do link e conve
 > *Repositório privado, protótipo de abril de 2025*
 
 App mobile em **React Native/Expo** para corretores de planos de saúde, com cotação, busca de rede credenciada e sugestões de plano geradas por um **LLM** chamado pela API da OpenAI.
+
+### 🍽️ [cardapio-rag](https://github.com/blackoutt444/cardapio-rag) [![CI](https://github.com/blackoutt444/cardapio-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/blackoutt444/cardapio-rag/actions/workflows/ci.yml)
+
+API em **Python/FastAPI** que responde perguntas sobre um cardápio fictício com **RAG**: busca semântica com embeddings locais e resposta de um **LLM local (Ollama)** em JSON validado com **Pydantic**. Roda sem chave de API paga.
+
+- Avaliação automatizada com perguntas de referência: acerto da busca (hit@k e MRR), JSON válido, fidelidade ao contexto, abstenção quando o cardápio não tem a resposta e latência por etapa, com data, commit, modelo e hardware registrados
+- Provedores de LLM atrás de uma interface (Ollama, OpenAI, Anthropic e um falso para testes)
+- Testes com pytest e LLM simulado, CI no GitHub Actions e imagem Docker
