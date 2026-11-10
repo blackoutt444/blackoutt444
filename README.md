@@ -24,7 +24,7 @@ Sou desenvolvedor de software com foco em **back-end**, experiência em projetos
 No back-end, minha linguagem preferida é **Python**. Também trabalho com Node.js e TypeScript, e já atuei em projetos que passam por banco de dados, regras de negócio, APIs, web e mobile.
 
 - 🔭 Desenvolvendo o **TocaAqui**, um marketplace para contratação de músicos, da modelagem do banco e das regras de autorização até as telas web e mobile
-- 🤖 Uso agentes de programação (Codex e Claude) e prompting estruturado no dia a dia, e estou me aprofundando em aplicações com LLMs
+- 🧠 Estudando aplicações com LLMs: integração com APIs de modelos, recuperação de contexto (RAG), saídas estruturadas e avaliação
 - ⚙️ Trabalho com processo: issues, branches, pull requests, integração contínua e testes automatizados
 - 🎹 Fora do código, sou tecladista
 
@@ -38,12 +38,14 @@ No back-end, minha linguagem preferida é **Python**. Também trabalho com Node.
 | **Autenticação e autorização** | Supabase Auth · Firebase Auth · JWT · RBAC · Row Level Security |
 | **Front-end e mobile** | React · Next.js · React Native · Expo · HTML · CSS |
 | **Qualidade** | Git · GitHub Actions · Vitest · testes automatizados · integração contínua |
-| **IA** | Desenvolvimento assistido por IA · prompting estruturado · agentes de programação · API da OpenAI |
+| **Aplicações com IA** | Integração com LLM via API da OpenAI (protótipo Corretor Fácil) |
+
+**Ferramentas de desenvolvimento:** uso agentes de programação (Codex e Claude Code) como apoio para escrever, revisar e testar código. Eles são ferramenta de trabalho, não projetos de IA. Os projetos de IA estão listados acima.
 
 ## 🚀 Projetos em destaque
 
 ### 🎹 TocaAqui: marketplace de músicos
-> *Repositório privado: produto em desenvolvimento*
+> *Repositório privado, produto em desenvolvimento. Acesso de leitura para avaliação técnica mediante solicitação.*
 
 Plataforma brasileira para contratar músicos e profissionais da música, com app web, painel administrativo e app mobile.
 
@@ -52,15 +54,16 @@ Plataforma brasileira para contratar músicos e profissionais da música, com ap
 - **Arquitetura:** monorepo em TypeScript (npm workspaces) com web e admin em Next.js, app mobile em Expo/React Native e pacotes compartilhados de domínio, validação e cliente de API
 - **Qualidade:** CI no GitHub Actions com lint, typecheck, testes (Vitest), build e auditoria de dependências; fluxo com issues, pull requests e Conventional Commits
 - **Documentação** de arquitetura, produto e segurança (threat model e matriz de autorização)
+- **Em números:** 24 migrations SQL, 9 suítes de teste de RLS, 21 arquivos de teste com Vitest e 12 pull requests mesclados com CI aprovado
 
-### 🎧 [Conversor de Áudio](https://github.com/blackoutt444/conversor-de-audio)
+### 🎧 [Conversor de Áudio](https://github.com/blackoutt444/conversor-de-audio) [![CI](https://github.com/blackoutt444/conversor-de-audio/actions/workflows/ci.yml/badge.svg)](https://github.com/blackoutt444/conversor-de-audio/actions/workflows/ci.yml)
 
 API em **Python/Flask** que baixa o áudio de um vídeo a partir do link e converte para MP3, WAV, OGG, FLAC ou AAC com **yt-dlp** e **FFmpeg**.
 
-- Testes automatizados com conversão real pelo FFmpeg, validação de entrada e proteção contra path traversal
-- Integração contínua no GitHub Actions (Python 3.12 e 3.13)
+- Testes automatizados com pytest, incluindo conversão real pelo FFmpeg para todos os formatos
+- Integração contínua no GitHub Actions (Python 3.12 e 3.13): o selo ao lado mostra o resultado do último run
 
 ### 📋 Corretor Fácil
-> *Repositório privado*
+> *Repositório privado, protótipo de abril de 2025*
 
-App mobile em **React Native/Expo** para corretores de planos de saúde, com cotação, busca de rede credenciada e sugestões de plano geradas por um **LLM** (API da OpenAI).
+App mobile em **React Native/Expo** para corretores de planos de saúde, com cotação, busca de rede credenciada e sugestões de plano geradas por um **LLM** chamado pela API da OpenAI.
